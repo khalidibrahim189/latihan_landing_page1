@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand .fas{
+    height: 50px;
+    padding-left: 20px;
+    margin: 10px;
+    color: #fff;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #0abde3;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* Baner section */
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.fa-play{
+    font-size: 40px;
+    margin: 20px;
+    color: red;
+}
+
+.fa-play:hover{
+    color: #fff;
+}
+
+.col-md-6 .play-btn{
+    color: #fff;
+    text-decoration: none;
+}
+
+.col-md-6 .play-btn:hover{
+    color: #0abde3;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+#services{
+    padding: 80px 0;
+}
+
+#services .fa-funnel-dollar{
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #a8ff78;
+}
+
+
+#services .fa-shopping-cart{
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FDC830;
+}
+
+#services .fa-truck{
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #F37335;
+}
+
+#services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title:after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    margin-top: 20px;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+/* About */
+
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#about-us .img-fluid{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 18%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+}
+
+#about-us ul{
+    margin-left: 50px;
+}
+
+/* Testimonials */
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* Social  media section */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons .fab{
+    padding: 10px 20px;
+}
+
+.social-icons .fa-facebook{
+    color: #3b5999;
+    font-size: 50px;
+}
+
+.social-icons .fa-linkedin{
+    color: #0084ff;
+    font-size: 50px;
+}
+
+.social-icons .fa-whatsapp{
+    color: #25D366;
+    font-size: 50px;
+}
+
+.social-icons .fa-github{
+    color: #131418;
+    font-size: 50px;
+}
+
+.social-icons .fa-medium{
+    color: #131418;
+    font-size: 50px;
+}
+
+.social-icons a:hover .fa-facebook{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover .fa-linkedin{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover .fa-github{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover .fa-whatsapp{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover .fa-twitter{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover .fa-medium{
+    transform: translateY(-10px);
+}
+
+/* Footer */
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    text-align: center;
+    height: 40px;
+}
+
+#footer h6{
+    margin-top: 50px;
+}
